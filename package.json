@@ -1,0 +1,27 @@
+{
+  "name": "tiny-uid",
+  "version": "0.0.0",
+  "description": "Barebones code to generate a uid of custom length",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chipto/tiny-uid.git"
+  },
+  "keywords": [
+    "tiny",
+    "uid",
+    "uuid",
+    "unique",
+    "id",
+    "custom",
+    "length",
+    "crypto"
+  ],
+  "author": "Neek Sandhu <neek.sandhu@chipto.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chipto/tiny-uid/issues"
+  },
+  "homepage": "https://github.com/chipto/tiny-uid#readme"
+}
