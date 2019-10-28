@@ -1,6 +1,8 @@
 /**
- * Returns randomly generated alpha-numeric string. Optionally you can specify custom length for returned string, defaults to `7`.
- * Note: At the moment, generated string is all lowercase, but is subject to change in future releases, should needs/use cases, require so. 
+ * Returns randomly generated alpha-numeric string.
+ * 
+ * @param length - Length of the generated string (default 7)
+ * @param hex - set to true if returned value should be a hexadecimal based string (default false)
  */
-declare function uid(length?: number);
+declare function uid(length?: number, hex?: boolean);
 export default uid;
