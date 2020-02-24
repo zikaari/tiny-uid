@@ -2,7 +2,7 @@ const generator = (base) => (
 	typeof crypto !== 'undefined' && typeof crypto.getRandomValues === 'function'
 		? () => {
 			const num = crypto.getRandomValues(new Uint8Array(1))[0];
-			return (num > base ? num % base : num).toString(base)
+			return (num >= base ? num % base : num).toString(base)
 		}
 		: () => Math.floor(Math.random() * base).toString(base)
 );
